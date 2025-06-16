@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark theme for react-calendar */
+.react-calendar-dark {
+  background: #1f2937 !important;
+  border: 1px solid #374151 !important;
+  border-radius: 8px !important;
+  color: white !important;
+  font-family: inherit !important;
+}
+
+.react-calendar-dark .react-calendar__navigation {
+  background: #1f2937 !important;
+}
+
+.react-calendar-dark .react-calendar__navigation button {
+  color: white !important;
+  background: none !important;
+  border: none !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+.react-calendar-dark .react-calendar__navigation button:hover {
+  background: #374151 !important;
+  border-radius: 4px !important;
+}
+
+.react-calendar-dark .react-calendar__month-view__weekdays {
+  background: #374151 !important;
+}
+
+.react-calendar-dark .react-calendar__month-view__weekdays__weekday {
+  color: #9ca3af !important;
+  font-weight: 500 !important;
+  padding: 8px !important;
+}
+
+.react-calendar-dark .react-calendar__tile {
+  background: #1f2937 !important;
+  color: white !important;
+  border: none !important;
+  padding: 8px !important;
+  font-size: 14px !important;
+}
+
+.react-calendar-dark .react-calendar__tile:hover {
+  background: #374151 !important;
+  border-radius: 4px !important;
+}
+
+.react-calendar-dark .react-calendar__tile--active {
+  background: #3b82f6 !important;
+  color: white !important;
+  border-radius: 4px !important;
+}
+
+.react-calendar-dark .react-calendar__tile--now {
+  background: #7c3aed !important;
+  color: white !important;
+  border-radius: 4px !important;
+}
+
+.react-calendar-dark .react-calendar__tile--now:hover {
+  background: #6d28d9 !important;
+}
